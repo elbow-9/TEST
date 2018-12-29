@@ -4,13 +4,147 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="content-language" content="ja">
-    <title>Hello, world.</title>
-    <link rel="stylesheet" type="text/css" href=".css">
-    <meta http-equiv="refresh" content="180">
+    <title>ヒジオカの人生</title>
+    <link rel="stylesheet" type="text/css" href="port.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>
-        Hello, world.
-    </h1>
+
+
+    <nav>
+        <a class="h1" href="http://build-age.net/">Build-Age</a>
+        <a href="#contact">Contact</a>
+        <a href="#hobby">Hobby</a>
+        <a href="#career">Career</a>
+        <a href="#profile">Profile</a>
+    </nav>
+
+    <header>
+        <p class="header-title">今日をがんばった者・・・
+            <br>今日をがんばり始めた者にのみ 明日が来るんだよ。
+        </p>
+    </header>
+
+    <main>
+        <article class="profile">
+            <section id="profile">
+                <h2>Profile</h2>
+            </section>
+
+            <div class="ul-wrapper">
+                <ul>
+                    <li>
+                        Name : Ami Hijioka</li>
+                    <li>
+                        Age : 19</li>
+                    <li>
+                        Uni : Senshu</li>
+                    <li> Department of Law</li>
+                </ul>
+            </div>
+            <div class="img-wrapper">
+                <img src="image/profile-image.jpg" alt="ヒジオカの壁ドン画像です">
+            </div>
+
+        </article>
+
+        <article class="career">
+
+            <section id="career">
+                <h2>Career</h2>
+            </section>
+
+            <div class="flex-items">
+
+                <div class="flex-item">
+                    <h3>Past</h3>
+                    <p>東京葛飾に爆誕。小学校の頃の夢は「社長」と「猫」。中学時代に身体を壊し、高校で精神も壊れる。部活は中高ダンス部に所属し、リーダーを２度務めた。曲編集や動画編集や照明など、機械はヒジオカが一任。主にアニメ漫画小説で脳がお花畑。ダイビングや和太鼓、書道、茶道、花道など趣味とも呼べないもの多数。とてつもない飽き性。</p>
+                </div>
+
+                <div class="flex-item">
+                    <h3>Present</h3>
+                    <p>休学中。投資とプログラミングなどの勉強に専念し、不労所得を創出。他にも様々な分野の勉強を楽しんでいる。最近のハマりは貞観政要。時間に縛りがないので旅をしまくっている。一人で宮崎、京都。他にも広島、伊豆、ハワイなど。投資家との交流も含めて色々な場へ赴いている。Build-Ageで進化中。Netflixお試し期間で解約を忘れ、一番いいコース邁進中。</p>
+                </div>
+
+                <div class="flex-item">
+                    <h3>Future</h3>
+                    <p>富を回す。大きな富を動かし、地球や人に優しいことをしている企業や人物に投資、援助をする。そのために投資または事業を立ち上げ、富を創出する。競争を避け、謙虚に生きる。今だけ見て生きる。とりあえず日本を変えよう。書くことなくなったけど、他のもうちょっと書いてるから伸ばすね。健康で楽しく笑って、あ、これくらいでいいや。終わり。（は）</p>
+                </div>
+
+            </div>
+
+
+        </article>
+
+        <article class="hobby">
+
+            <section id="hobby">
+                <h2>Hobby</h2>
+            </section>
+
+            <div class="hobbies">
+
+                <div class="hobby-item">
+                    <i class="fas fa-book fa-10x"></i>
+                    <p class="hobby-title">読書</p>
+                    <p class="hobby">ジャンルは問わず、なんでも読みます。ついさっき読んだのが『帝王学　貞観政要の読み方』という本で、控えめに言って素晴らしい。組織に所属している人には読んで欲しい一冊です。あと、一時期すごくハマっていたのが『
+                        A Perfect Day for Bananafish 』。サリンジャーの著作です。おすすめしたい本なんて尽きないですよね。知ってました。</p>
+                </div>
+
+                <div class="hobby-item">
+                    <i class="fab fa-bitcoin fa-10x"></i>
+                    <p class="hobby-title">投資</p>
+                    <p class="hobby">主にバイナリーオプションをやります。今は自動売買で不労所得ができたので、楽しく投資してます。内容は言えないですが、めちゃめちゃ楽しいです。マーフィーとか読むと面白いと思います。投資興味あれば待ってますので、Build-Ageでお会いしましょう。
+                    </p>
+                </div>
+
+                <div class="hobby-item">
+                    <i class="fas fa-walking fa-10x"></i>
+                    <p class="hobby-title">散歩・旅</p>
+                    <p class="hobby">冬は夜が寒すぎて、散歩に行かなくなりました。（それ趣味じゃないんじゃ？）その代わり、旅してます。宮崎、京都、広島、静岡、ハワイ。便利な世の中になりましたよね〜、このまま誰か、物体を光の速度を超えられるような理論の実用化、してくれないですかね〜。(なんの話)</p>
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="contact">
+            <section id="contact">
+                <h2>Contact</h2>
+            </section>
+            <div class="con-form">
+                <form action="post/post.php" method="post">
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div class="mail">
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div class="msg">
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button type="submit">SEND</button>
+                    </div>
+                </form>
+            </div>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <a href="#top" class="top">TOP</a>
+        <address>created by
+            <a href="https://twitter.com/cec0e2c8dab4464"> 『ヒジオカ』</a>
+            <br>
+            <a href="http://build-age.net/author/regu/">【必読】:ヒジオカが書いた記事:</a>
+        </address>
+    </footer>
+
 </body>
